@@ -12,6 +12,8 @@ This project is a minimal Vue 3 setup intended to be the starting point for an A
    ```bash
    npm run dev
    ```
+   Vite will start on `http://localhost:5173` (or the next available port). The
+   error overlay is disabled by default in `vite.config.js`.
 3. Build for production:
    ```bash
    npm run build
