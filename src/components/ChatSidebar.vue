@@ -33,8 +33,9 @@ defineEmits(['select'])
 
 <style scoped>
 .sidebar {
-  width: 200px;
-  border-right: 1px solid #ccc;
+  width: 250px;
+  background: linear-gradient(180deg, #4e54c8, #8f94fb);
+  color: #fff;
   padding: 1rem;
 }
 ul {
@@ -45,9 +46,10 @@ ul {
 li {
   padding: 0.5rem;
   cursor: pointer;
+  border-radius: 4px;
 }
 li.active {
-  background: #eee;
+  background: rgba(255, 255, 255, 0.2);
   font-weight: bold;
 }
 </style>
